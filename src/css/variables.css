@@ -1,0 +1,19 @@
+:root {
+    --primary-red: hsl(0, 78%, 62%);
+    --primary-cyan: hsl(180, 62%, 55%);
+    --primary-orange: hsl(34, 97%, 64%);
+    --primary-blue: hsl(212, 86%, 64%);
+
+    --neutral-dark: hsl(234, 12%, 34%);
+    --neutral-medium: hsl(212, 6%, 44%);
+    --neutral-light: hsl(0, 0%, 100%);
+    --neutral-bg: hsl(0, 0%, 98%);
+
+    --font-family: 'Poppins', sans-serif;
+    --font-weight-light: 200;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+
+    --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.05);
+    --border-radius: 8px;
+}

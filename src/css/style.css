@@ -1,0 +1,89 @@
+.page-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-light);
+    color: var(--neutral-dark);
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.header-title .highlighted {
+    font-weight: var(--font-weight-semibold);
+    display: block;
+}
+
+.header-description {
+    color: var(--neutral-medium);
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.feature-card {
+    background-color: var(--neutral-light);
+    border-radius: var(--border-radius);
+    padding: 25px;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+}
+
+.card-supervisor::before {
+    background-color: var(--primary-cyan);
+}
+
+.card-team-builder::before {
+    background-color: var(--primary-red);
+}
+
+.card-karma::before {
+    background-color: var(--primary-orange);
+}
+
+.card-calculator::before {
+    background-color: var(--primary-blue);
+}
+
+.feature-title {
+    color: var(--neutral-dark);
+    font-weight: var(--font-weight-semibold);
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+.feature-icon {
+    display: block;
+    margin-left: auto;
+}
+
+.page-footer {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.attribution a {
+    color: var(--primary-blue);
+    text-decoration: underline;
+    font-weight: var(--font-weight-semibold);
+}

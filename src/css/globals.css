@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+body {
+  font-family: var(--font-family);
+  font-size: 0.938rem;
+  font-weight: var(--font-weight-regular);
+  color: var(--neutral-medium);
+  background-color: var(--neutral-bg);
+  line-height: 1.6;
+  padding: 80px 30px;
+  min-height: 100vh;
+}
+
+.page-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+}
