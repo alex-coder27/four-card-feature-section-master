@@ -1,4 +1,4 @@
-@media(min-width: 1024px) {
+@media(min-width: 64rem) {
   :root {
     --base-unit: 1.125rem;
   }
@@ -62,7 +62,7 @@
   }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 20rem) {
   :root {
     --base-unit: 0.875rem;
   }
