@@ -14,6 +14,15 @@
     --font-weight-regular: 400;
     --font-weight-semibold: 600;
 
-    --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.05);
-    --border-radius: 8px;
+    --base-unit: 1rem;
+    --spacing-xs: calc(var(--base-unit) * 0.5);
+    --spacing-sm: calc(var(--base-unit) * 0.75);
+    --spacing-md: calc(var(--base-unit) * 1);
+    --spacing-lg: calc(var(--base-unit) * 1.5);
+    --spacing-xl: calc(var(--base-unit) * 2);
+    --spacing-xxl: calc(var(--base-unit) * 3.75);
+
+    --border-radius: calc(var(--base-unit) * 0.5);
+    --border-width: calc(var(--base-unit) * 0.25);
+    --box-shadow: 0 calc(var(--base-unit) * 0.625) calc(var(--base-unit) * 1.25) rgba(0, 0, 0, 0.1), 0 calc(var(--base-unit) * 0.375) calc(var(--base-unit) * 0.375) rgba(0, 0, 0, 0.05);
 }

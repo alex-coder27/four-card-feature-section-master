@@ -3,16 +3,16 @@
 
 body {
   font-family: var(--font-family);
-  font-size: 0.938rem;
   font-weight: var(--font-weight-regular);
+  font-size: 0.938rem;
   color: var(--neutral-medium);
   background-color: var(--neutral-bg);
   line-height: 1.6;
-  padding: 80px 30px;
+  padding: var(--spacing-xxl) var(--spacing-lg);
   min-height: 100vh;
 }
 
 .page-wrapper {
-  max-width: 375px;
+  max-width: 23.438rem;
   margin: 0 auto;
 }
