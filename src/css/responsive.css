@@ -1,3 +1,13 @@
+@media(min-width: 23rem) {
+  :root {
+    --base-unit: 1rem;
+  }
+
+  body {
+    padding: var(--spacing-xxl) var(--spacing-lg);
+  }
+}
+
 @media(min-width: 64rem) {
   :root {
     --base-unit: 1.125rem;
@@ -19,7 +29,7 @@
 
   .header-title {
     font-size: calc(var(--base-unit) * 2);
-    margin-bottom: var(--spacing-xs);
+    margin-block-end: var(--spacing-xs);
   }
 
   .features-grid {
@@ -54,20 +64,10 @@
   }
 
   .feature-title {
-    margin-bottom: 0;
+    margin-block-end: 0;
   }
 
   .feature-description {
     font-size: calc(var(--base-unit) * 0.7);
-  }
-}
-
-@media(max-width: 20rem) {
-  :root {
-    --base-unit: 0.875rem;
-  }
-
-  body {
-    padding: var(--spacing-xl) var(--spacing-md);
   }
 }

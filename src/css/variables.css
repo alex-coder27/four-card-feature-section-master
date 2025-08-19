@@ -14,7 +14,7 @@
     --font-weight-regular: 400;
     --font-weight-semibold: 600;
 
-    --base-unit: 1rem;
+    --base-unit: 0.875rem;
     --spacing-xs: calc(var(--base-unit) * 0.5);
     --spacing-sm: calc(var(--base-unit) * 0.75);
     --spacing-md: calc(var(--base-unit) * 1);

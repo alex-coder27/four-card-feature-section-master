@@ -4,11 +4,10 @@
 body {
   font-family: var(--font-family);
   font-weight: var(--font-weight-regular);
-  font-size: 0.938rem;
   color: var(--neutral-medium);
   background-color: var(--neutral-bg);
   line-height: 1.6;
-  padding: var(--spacing-xxl) var(--spacing-lg);
+  padding: var(--spacing-xl) var(--spacing-md);
   min-height: 100vh;
 }
 
